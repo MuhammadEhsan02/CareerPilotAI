@@ -1,0 +1,16 @@
+{
+    "dependencies": ["."],  
+    "graphs": {
+  "main_agent": "./src/careerpilotai/orchestrator/main_agent.py:create_orchestrator_agent"            
+    },
+    "env": "./.env",                                        
+    "python_version": "3.11",
+    "http": {
+  "app": "./src/careerpilotai/mcp/server.py:app",
+        "timeout": 10000
+    },
+    "image_distro": "wolfi",
+    "auth": {
+  "path": "./src/careerpilotai/auth/middleware.py:auth"
+  }
+}

@@ -1,0 +1,2 @@
+// Intentionally empty placeholder so tooling doesn't attempt to load a malformed root tsconfig.
+// Frontend lives under react-ui with its own tsconfig.json.
